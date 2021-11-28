@@ -1,0 +1,62 @@
+
+.body {    
+    background-image: url(img/Background.png) ; /* Путь к фоновому изображению */
+    background-color:#b7918f;  /* Цвет подложки-заменителя фона */
+    background-position: center;  /*(по центру)*/
+    background-size: cover;
+    font-family: Sans-serif;
+    color: white;   /* Белые буквы */
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.page-header__main-nav {    
+    position: relative; left: 15%; top: 30px;
+}
+
+.main-nav__list {
+    display: inline-block;    
+    list-style-type: none;    
+    font-size: 13px;    
+    position: relative; left: 38%; 
+}
+
+.main-nav__item {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.main-nav__link__colour {
+    color: #5c2428;    
+}
+
+.main-nav__link {
+    color: white;
+    text-decoration: none;    
+}
+
+.promo {
+    text-align: center;
+    position: relative; top: 160px;    
+}
+
+.promo__title {
+    font-size: 38px;    
+}
+
+.promo__description {    
+    font-size: 18px;
+    line-height: 28px;    
+}
+
+.promo__button {
+    background: #b7918f;  /* Розово-коричневый цвет кнопки */ 
+    border: none;
+    border-radius: 4px;
+    color: white;         /* Белые буквы */ 
+    padding: 12px 56px;
+    font-size: 22px;       /* Размер шрифта в кнопке */       
+    margin: 50px;
+}
