@@ -1,4 +1,4 @@
-# ellykrauch-1.github.io
+# ellykrauch.github.io
 The Start Page for the Event Agency Blog
 
 This is the start page of the Event Agency Blog.
