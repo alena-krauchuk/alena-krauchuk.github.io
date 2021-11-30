@@ -1,11 +1,10 @@
-
 .body {    
-    background-image: url(img/Background.png) ; /* Путь к фоновому изображению */
-    background-color:#b7918f;  /* Цвет подложки-заменителя фона */
-    background-position: center;  /*(по центру)*/
+    background-image: url(img/Background.png) ;  
+    background-color:#b7918f;                  
+    background-position: center;                 
     background-size: cover;
     font-family: Sans-serif;
-    color: white;   /* Белые буквы */
+    color: #e6dcdc;                              
 }
 
 .visually-hidden {
@@ -18,25 +17,27 @@
 
 .main-nav__list {
     display: inline-block;    
-    list-style-type: none;    
+    list-style-type: none;                  
     font-size: 13px;    
     position: relative; left: 38%; 
 }
 
 .main-nav__item {
-    display: inline-block;
+    display: inline-block;              
     padding: 0 10px;
-}
-
-.main-nav__link__colour {
-    color: #5c2428;    
+    font-weight: bold;
 }
 
 .main-nav__link {
-    color: white;
-    text-decoration: none;    
+    color: #e6dcdc;
+    text-decoration: none;              
 }
 
+.main-nav__link:hover {              
+    color: #5c2428;                     
+    text-decoration: underline;        
+}
+  
 .promo {
     text-align: center;
     position: relative; top: 160px;    
@@ -48,15 +49,30 @@
 
 .promo__description {    
     font-size: 18px;
-    line-height: 28px;    
+    line-height: 10px;    
 }
 
-.promo__button {
-    background: #b7918f;  /* Розово-коричневый цвет кнопки */ 
-    border: none;
+.promo__button {                
+    appearance: none;
+    border: 2px solid transparent;
     border-radius: 4px;
-    color: white;         /* Белые буквы */ 
-    padding: 12px 56px;
-    font-size: 22px;       /* Размер шрифта в кнопке */       
+    background: #b7918f;    
+    padding: 10px 56px;
     margin: 50px;
+    font-family: inherit;
+    font-size: 20px;    
+    color: #e6dcdc;
+    cursor: pointer;
+}
+
+.promo__button:hover {    
+    background: transparent;          
+    color: #e6dcdc;                 
+    border-color: #5c2428;          
+}
+
+.promo__button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #5c2428;      
+    background: #a36e6c;                            
 }
