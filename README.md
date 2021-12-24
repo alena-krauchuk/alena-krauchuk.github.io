@@ -1,4 +1,4 @@
-# ellykrauch.github.io
+# alena-krauchuk.github.io
 The Start Page for the Event Agency Blog
 
 This is the start page of the Event Agency Blog.
@@ -7,4 +7,4 @@ The page design is soft and laconic, aimed at creating a calm joyful expectation
 This page design layout and others can be viewed <a href="https://www.behance.net/gallery/48741349/Study-Project-2-Home-Page-Design-Layout">here</a>.
 <p>The page web development is based on some principles of semantic markup.
 The page elements design changes by hover, and also when focused by tabulation.
-The result can be viewed <a href="https://ellykrauch.github.io/">here</a>.</p>
+The result can be viewed <a href="https://alena-krauchuk.github.io/">here</a>.</p>
